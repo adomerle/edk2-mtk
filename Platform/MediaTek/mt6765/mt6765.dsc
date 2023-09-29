@@ -27,7 +27,7 @@
   gArmTokenSpaceGuid.PcdSystemMemorySize|0xc0000000
 
   gArmTokenSpaceGuid.PcdCpuVectorBaseAddress|0x40C40000     # CPU Vectors
-  gArmTokenSpaceGuid.PcdArmArchTimerFreqInHz|26000000
+  gArmTokenSpaceGuid.PcdArmArchTimerFreqInHz|13000000
   gArmTokenSpaceGuid.PcdArmArchTimerSecIntrNum|13
   gArmTokenSpaceGuid.PcdArmArchTimerIntrNum|14
   gArmTokenSpaceGuid.PcdArmArchTimerVirtIntrNum|11
