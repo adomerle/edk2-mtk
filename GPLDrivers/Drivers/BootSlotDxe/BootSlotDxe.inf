@@ -34,7 +34,7 @@
   MdePkg/MdePkg.dec
   EmbeddedPkg/EmbeddedPkg.dec
   MdeModulePkg/MdeModulePkg.dec
-  Silicon/Qualcomm/QcomPkg/QcomPkg.dec
+  Silicon/MediaTek/MediaTekPkg/MediaTekPkg.dec
 
 [Depex]
   TRUE

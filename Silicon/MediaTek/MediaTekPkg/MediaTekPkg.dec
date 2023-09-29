@@ -1,0 +1,31 @@
+[Defines]
+  DEC_SPECIFICATION              = 0x0001001A
+  PACKAGE_NAME                   = MediaTekPkg
+  PACKAGE_GUID                   = e2b3780c-ed78-4c34-ad58-c66d806f7ec5
+  PACKAGE_VERSION                = 1.0
+
+[Includes]
+  Include
+  GPLDrivers/Include
+
+[Guids]
+  gMediaTekTokenSpaceGuid             = { 0x882f8c2b, 0x9646, 0x435f, { 0x8d, 0xe5, 0xf2, 0x08, 0xff, 0x80, 0xc1, 0xbd } }
+
+[Protocols]
+  # Clock
+  gEfiClockProtocolGuid             = { 0x241afae6, 0x885f, 0x4f6c, { 0xa7, 0xea, 0xc2, 0x8e, 0xab, 0x79, 0xc3, 0xe5 } }
+
+[PcdsFixedAtBuild.common]
+  # Memory allocation
+  gMediaTekTokenSpaceGuid.PcdUefiMemPoolBase|0|UINT64|0x00000a106
+  gMediaTekTokenSpaceGuid.PcdUefiMemPoolSize|0|UINT32|0x00000a107
+
+  # Simple FrameBuffer
+  gMediaTekTokenSpaceGuid.PcdMipiFrameBufferAddress|0x00400000|UINT32|0x0000a400
+  gMediaTekTokenSpaceGuid.PcdMipiFrameBufferWidth|720|UINT32|0x0000a401
+  gMediaTekTokenSpaceGuid.PcdMipiFrameBufferHeight|1440|UINT32|0x0000a402
+  gMediaTekTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32|UINT32|0x0000a403
+  gMediaTekTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|720|UINT32|0x0000a404
+  gMediaTekTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|1440|UINT32|0x0000a405
+  # RTC information
+  gMediaTekTokenSpaceGuid.PcdBootShimInfo1|0xb0000000|UINT64|0x00000a601
