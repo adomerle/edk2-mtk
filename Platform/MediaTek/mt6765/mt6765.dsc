@@ -43,8 +43,6 @@
 
   gMediaTekTokenSpaceGuid.PcdUefiMemPoolBase|0x40C50000         # DXE Heap base address
   gMediaTekTokenSpaceGuid.PcdUefiMemPoolSize|0x0F3B0000         # UefiMemorySize, DXE heap size
-  
-  gMediaTekTokenSpaceGuid.PcdMipiFrameBufferAddress|0x7C2D4800
 
   gArmPlatformTokenSpaceGuid.PcdCoreCount|4
   gArmPlatformTokenSpaceGuid.PcdClusterCount|1

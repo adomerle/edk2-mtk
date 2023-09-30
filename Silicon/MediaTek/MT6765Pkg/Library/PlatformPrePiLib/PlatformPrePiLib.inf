@@ -54,9 +54,3 @@
 
 [Pcd]
   gEfiMdeModulePkgTokenSpaceGuid.PcdFirmwareVersionString
-
-[FixedPcd]
-  gMediaTekTokenSpaceGuid.PcdMipiFrameBufferAddress
-  gMediaTekTokenSpaceGuid.PcdMipiFrameBufferWidth
-  gMediaTekTokenSpaceGuid.PcdMipiFrameBufferHeight
-  gMediaTekTokenSpaceGuid.PcdMipiFrameBufferPixelBpp
