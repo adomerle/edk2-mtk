@@ -1,0 +1,22 @@
+
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = GpioLib
+  FILE_GUID                      = 7447be9e-f401-4fa3-be27-e20b16d6420f
+  MODULE_TYPE                    = BASE
+  VERSION_STRING                 = 1.0
+  LIBRARY_CLASS                  = GpioLib
+
+[Sources.common]
+  GpioLib.c
+
+[LibraryClasses]
+  DebugLib
+  IoLib
+  ArmLib
+
+[Packages]
+  EmbeddedPkg/EmbeddedPkg.dec
+  MdePkg/MdePkg.dec
+  ArmPkg/ArmPkg.dec
+  Silicon/MediaTek/MT6765Pkg/MT6765.dec
