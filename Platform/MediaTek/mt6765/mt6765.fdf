@@ -132,6 +132,9 @@ READ_LOCK_STATUS   = TRUE
 
   INF Silicon/MediaTek/MediaTekPkg/Drivers/SimpleFbDxe/SimpleFbDxe.inf
 
+  INF Silicon/MediaTek/MediaTekPkg/Drivers/KeypadDxe/KeypadDxe.inf
+  INF Silicon/MediaTek/MediaTekPkg/Drivers/GenericKeypadDeviceDxe/GenericKeypadDeviceDxe.inf
+
   #
   # USB Host Support
   #
