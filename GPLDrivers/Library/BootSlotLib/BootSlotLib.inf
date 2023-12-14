@@ -34,7 +34,7 @@
   MdePkg/MdePkg.dec
   MdeModulePkg/MdeModulePkg.dec
   EmbeddedPkg/EmbeddedPkg.dec
-  Silicon/Qualcomm/QcomPkg/QcomPkg.dec
+  Silicon/MediaTek/MediaTekPkg/MediaTekPkg.dec
 
 [LibraryClasses]
   UefiLib

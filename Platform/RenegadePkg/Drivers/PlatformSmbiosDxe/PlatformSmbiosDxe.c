@@ -105,8 +105,8 @@ SMBIOS_TABLE_TYPE0 mBIOSInfoType0 = {
     0xFF, // EmbeddedControllerFirmwareMinorRelease
 };
 
-CHAR8 mBiosVendor[128]  = "Renegade-Project";
-CHAR8 mBiosVersion[128] = "edk2-msm";
+CHAR8 mBiosVendor[128]  = "Renegade Project";
+CHAR8 mBiosVersion[128] = "edk2-mtk";
 CHAR8 mBiosDate[12]     = __DATE__;
 
 CHAR8 *mBIOSInfoType0Strings[] = {

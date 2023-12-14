@@ -18,6 +18,6 @@
 
 [PcdsFixedAtBuild]
   # Device Info
-  gRenegadePkgTokenSpaceGuid.PcdDeviceVendor|"Qualcomm"|VOID*|0x0000a301
-  gRenegadePkgTokenSpaceGuid.PcdDeviceProduct|"Snapdragon 845 Device"|VOID*|0x0000a302
-  gRenegadePkgTokenSpaceGuid.PcdDeviceCodeName|"sdm845"|VOID*|0x0000a303
+  gRenegadePkgTokenSpaceGuid.PcdDeviceVendor|"MediaTek"|VOID*|0x0000a301
+  gRenegadePkgTokenSpaceGuid.PcdDeviceProduct|"MediaTek device"|VOID*|0x0000a302
+  gRenegadePkgTokenSpaceGuid.PcdDeviceCodeName|"mtkgeneric"|VOID*|0x0000a303
