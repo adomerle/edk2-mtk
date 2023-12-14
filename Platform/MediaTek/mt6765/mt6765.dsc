@@ -55,6 +55,7 @@
 
 [LibraryClasses.common]
   GpioLib|Silicon/MediaTek/MediaTekPkg/Library/GpioLib/GpioLib.inf
+  KeypadDeviceImplLib|Silicon/MediaTek/MediaTekPkg/Library/KeypadDeviceImplLib/KeypadDeviceImplLib.inf
   PlatformMemoryMapLib|Silicon/MediaTek/MT6765Pkg/Library/PlatformMemoryMapLib/PlatformMemoryMapLib.inf
   PlatformPeiLib|Silicon/MediaTek/MT6765Pkg/Library/PlatformPeiLib/PlatformPeiLib.inf
   PlatformPrePiLib|Silicon/MediaTek/MT6765Pkg/Library/PlatformPrePiLib/PlatformPrePiLib.inf
