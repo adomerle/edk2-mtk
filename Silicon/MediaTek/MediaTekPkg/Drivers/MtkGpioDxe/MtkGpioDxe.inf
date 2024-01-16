@@ -1,0 +1,26 @@
+[Defines]
+  INF_VERSION                    = 1.25
+  BASE_NAME                      = MtkGpioDxe
+  FILE_GUID                      = 982fef98-77a9-4a2c-ae86-8e36ade510ad
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = MtkGpioInitialize
+
+[Sources.common]
+  MtkGpioDxe.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  Silicon/MediaTek/MediaTekPkg/MediaTekPkg.dec
+
+[LibraryClasses]
+  IoLib
+  DebugLib
+  UefiDriverEntryPoint
+  MtkGpioImplLib
+
+[Protocols]
+  gMtkGpioProtocolGuid
+
+[Depex]
+  TRUE

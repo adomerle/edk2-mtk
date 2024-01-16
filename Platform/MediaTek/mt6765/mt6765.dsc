@@ -59,3 +59,7 @@
   PlatformPrePiLib|Silicon/MediaTek/MT6765Pkg/Library/PlatformPrePiLib/PlatformPrePiLib.inf
   MsPlatformDevicesLib|Silicon/MediaTek/MT6765Pkg/Library/MsPlatformDevicesLib/MsPlatformDevicesLib.inf
   SOCSmbiosInfoLib|Silicon/MediaTek/MT6765Pkg/Library/SOCSmbiosInfoLib/SOCSmbiosInfoLib.inf
+  MtkGpioImplLib|Silicon/MediaTek/MT6765Pkg/Library/MtkGpioImplLib/MtkGpioImplLib.inf
+
+[Components.common]
+  Silicon/MediaTek/MediaTekPkg/Drivers/MtkGpioDxe/MtkGpioDxe.inf

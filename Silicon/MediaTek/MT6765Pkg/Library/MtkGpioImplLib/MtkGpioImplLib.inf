@@ -1,0 +1,14 @@
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = MtkGpioImplLib
+  FILE_GUID                      = d62def11-00b8-4174-92b9-d5a8d340eee5
+  MODULE_TYPE                    = SEC
+  VERSION_STRING                 = 1.0
+  LIBRARY_CLASS                  = MtkGpioImplLib
+
+[Sources]
+  MtkGpioImplLib.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  Silicon/MediaTek/MediaTekPkg/MediaTekPkg.dec

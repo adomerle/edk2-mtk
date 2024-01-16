@@ -131,6 +131,8 @@ READ_LOCK_STATUS   = TRUE
 !include Platform/MediaTek/mt6765/dxe.fdf.inc
 
   INF Silicon/MediaTek/MediaTekPkg/Drivers/SimpleFbDxe/SimpleFbDxe.inf
+  INF Silicon/MediaTek/MediaTekPkg/Drivers/MtkGpioDxe/MtkGpioDxe.inf
+
 
   #
   # USB Host Support
